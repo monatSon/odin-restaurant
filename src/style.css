@@ -1,0 +1,10 @@
+.page-container {
+  display: flex;
+  width: 24rem;
+  margin: auto;
+  background-color: aquamarine;
+}
+
+.homepage-heading {
+  font-family: "Gill Sans", sans-serif;
+}

@@ -1,17 +1,17 @@
-const AppendHomePage = () => {
+const AppendAboutPage = () => {
   const Content = document.getElementById("Content");
   const Heading = document.createElement("h1");
   const PageContainer = document.createElement("div");
 
   PageContainer.classList.add("page-container");
 
-  Heading.textContent = "Banh mi Anna";
+  Heading.textContent = "About";
   Heading.classList.add("homepage-heading");
 
   PageContainer.append(Heading);
   Content.append(PageContainer);
 
-  return AppendHomePage;
+  return AppendAboutPage;
 };
 
-export { AppendHomePage };
+export { AppendAboutPage };
