@@ -1,3 +1,10 @@
+nav {
+  display: flex;
+  width: 48rem;
+  margin: auto;
+  justify-content: center;
+}
+
 .page-container {
   display: flex;
   width: 48rem;
